@@ -1,0 +1,49 @@
+{
+  "name": "JavascriptFazt",
+  "autor": "Jehiverson Rodriguez",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^5.0.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.22.0",
+    "cors": "^2.8.5",
+    "currency-formatter": "^1.5.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "firebase": "^8.1.1",
+    "fs-extra": "^9.0.1",
+    "i": "^0.3.6",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.34",
+    "mongoose": "^5.9.26",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.7.0",
+    "npm": "^6.14.7",
+    "passport": "^0.4.1",
+    "passport-google-oauth2": "^0.2.0",
+    "react-google-login": "^5.1.21",
+    "react-router-dom": "^5.2.0",
+    "sweetalert2": "^9.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
