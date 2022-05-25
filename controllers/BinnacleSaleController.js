@@ -653,7 +653,8 @@ async function getBinnacleSaleReportTotal(req, res) {
             "fact": res.fact,
             "diferencia": res.diff,
             "date": res.date_created,
-            "diaAnterior": beforeDay
+            "diaAnterior": beforeDay,
+            "no_personas": res.people_totals
         })
     })
 
